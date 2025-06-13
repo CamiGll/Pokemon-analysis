@@ -28,8 +28,6 @@ share/python-wheels/
 MANIFEST
 
 # PyInstaller
-#  Usually these files are written by a script, but they may be committed to
-#  repositories / archives if needed.
 #*.manifest
 #*.spec
 
@@ -84,10 +82,6 @@ ipython_config.py
 # pyenv
 .python-version
 
-# pipenv
-# According to Python official guidance, this file should not be ignored.
-# Pipfile.lock
-
 # PEP 582; __pypackages__ directory
 __pypackages__/
 
@@ -124,3 +118,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Output folder for this project
+output/*
+!output/.gitkeep
+
+# Data folder - if data is sensitive or large
+# data/*
+# !data/.gitkeep
+
+# IDE settings folders
+.idea/
+.vscode/
